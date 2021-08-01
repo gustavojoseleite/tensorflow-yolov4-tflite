@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/tensorflow:21.07-tf2-py3
+FROM nvcr.io/nvidia/tensorflow:20.09-tf2-py3
 
 RUN apt-get update -y
 RUN apt-get install -y libgl1-mesa-glx
